@@ -1,0 +1,61 @@
+name: tikki
+description: Tikki - Global social + live + creator economy app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.2.0
+  firebase_messaging: ^15.0.0
+  cloud_functions: ^5.1.0
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Ads
+  google_mobile_ads: ^5.1.0
+
+  # Payments
+  flutter_stripe: ^11.0.0
+
+  # UI & Media
+  cached_network_image: ^3.3.1
+  video_player: ^2.9.1
+  chewie: ^1.8.1
+  image_picker: ^1.1.2
+  file_picker: ^8.0.0
+
+  # Utils & i18n
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.0
+  easy_localization: ^3.0.7
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/gifts/
+    - assets/icons/
+    - assets/translations/
